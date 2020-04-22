@@ -44,10 +44,12 @@ $(document).ready(function () {
     #  Selecteer <address>-elementen in de footer en zet de font-size op 40px;
     #  
     */
+  $("footer address").css("font-size", "40px");
   /* #5: Atrr selector
     #
     #  Selecteer alle <a>'s met een href="#", en zet de border rood
     #  
     */
+  $("[href='#']").css("border", "solid 5px blue");
   /* Experimenteer zelf met enkele selectors die je kan vinden op jQuery.com of W3C Schools */
 }); // End of document.ready functie.
