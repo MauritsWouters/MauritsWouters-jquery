@@ -1,6 +1,7 @@
 $(document).ready(function () {
   // your code goes here
 
+  $("h1").val();
   $("h1").css(function () {
     var color = $(this).css("color");
     console.log("That div is " + color + ".");
