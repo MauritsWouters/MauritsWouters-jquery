@@ -21,17 +21,22 @@
     <h2>Food & drinks</h2>
 
     <div class="foodDrinks">
-      <input type="checkbox" name="tickets" value="5" /> popcorn: 5 euro<br />
-      <input type="checkbox" name="tickets" value="2.5" /> cola: 2,5 euro<br />
-      <input type="checkbox" name="tickets" value="3" /> chips: 3 euro<br />
-      <input type="checkbox" name="tickets" value="2.5" /> Fanta: 2,50<br />
+      <input type="checkbox" name="foodDrinks_name" value="5" id="popcorn" />
+      popcorn: 5 euro<br />
+      <input type="checkbox" name="foodDrinks_name" value="2.5" id="cola" />
+      cola: 2,5 euro<br />
+      <input type="checkbox" name="foodDrinks_name" value="3" id="chips" />
+      chips: 3 euro<br />
+      <input type="checkbox" name="foodDrinks_name" value="2.5" id="fanta" />
+      Fanta: 2,50<br />
     </div>
 
     <button type="submit" id="betalen">betalen</button>
 
     <h2>ticket</h2>
-    <p id="tickets"></p>
-    <p id="prijs"></p>
+    <p id="prijsTickets"></p>
+    <p id="prijsFoodDrinks"></p>
+    <p id="prijsTotaal"></p>
 
     <script src="./jquery-3.5.0.min.js"></script>
     <script src="./mainjs.js"></script>
